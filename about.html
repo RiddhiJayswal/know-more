@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNOW MORE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="library.html">Library</a></li>
+                    <li><a href="">Account</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="form.html">SignUp</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-----about us contet---->
+   <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the World's largest  <br>E-library</h1>
+                <p>A collection or group of collections of books and/or other print or nonprint materials organized and maintained for use (reading, consultation, study, research, etc.)</p>
+                <p>Address: Shantigram Township, Nr.Vaishnodevi Circle, Sarkhej - Gandhinagar Hwy, PO, Adalaj, Gujarat 382421.</p>
+                <a href="library.html" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.3777946494924!2d72.54205407457434!3d23.156407611321935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8368c8f599c7%3A0x8e6ee1f3145fe108!2sAdani%20Institute%20of%20Infrastructure%20Engineering!5e0!3m2!1sen!2sin!4v1690638842505!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+   </section>
+     <!----Footer---->
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>A collection or group of collections of books and/or other print or nonprint materials organized and maintained for use (reading, consultation, study, research, etc.)</p>
+        <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> by IT Elites.</p>
+     </section>
+    <!-----javascript for toggle----->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu()
+        {
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+
+</body>
+</html>

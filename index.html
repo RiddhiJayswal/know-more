@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNOW MORE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="library.html">Library</a></li>
+                    <li><a href="">Account</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="form.html">SignUp</a></li>
+                </ul>
+            </div>
+
+            <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Welcome to Books World</h1>
+        <p>Nothing is pleasanter than exploring a library. </p>
+    </div>
+    </section>
+
+       <!----campus---->
+       <section class="campus">
+        <h1>Explore the Books World</h1>
+       
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/download.jpeg" alt="">
+                <div class="layer">
+                    <h3>Ramayana</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+              <img src="images/harrypotter.jpeg" alt="">
+                
+                <div class="layer">
+                    <h3>Harry Potter</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+               <img src="images/twostates.jpeg" alt="">
+                
+                <div class="layer">
+                    <h3>2 States</h3>
+                </div>
+            </div>
+        </div>
+        <a href="library.html" class="hero-btn">Explore More</a>
+       </section>
+  
+     <!----Footer---->
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>A collection or group of collections of books and/or other print or nonprint materials organized and maintained for use (reading, consultation, study, research, etc.)</p>
+        <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> by IT Elites.</p>
+
+     </section>
+    <!-----javascript for toggle----->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu()
+        {
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+
+</body>
+</html>
